@@ -1,0 +1,20 @@
+nav {
+	background-color: #cccccc;
+	width: 80%;
+	height: 100px;
+	margin-left: 10%;
+	text-align: center;
+	@include flex;
+	justify-content: space-around;
+	align-items: center;
+	position: absolute;
+	top: 450px;
+	text-decoration: none;
+
+
+	
+}
+
+a:link {
+    text-decoration: none;
+}

@@ -1,0 +1,4 @@
+default:
+  - 'concat'
+  - 'uglify'
+  - 'imagemin'

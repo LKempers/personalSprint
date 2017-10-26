@@ -1,0 +1,162 @@
+article {
+	height: 20%;
+	width: 60%;
+	margin-top: 10%;
+	text-align: center;
+	margin-left: 20%;
+}
+
+.intro__title {
+	margin-top: 5%;
+	text-align: center;
+}
+
+content {
+
+	@include flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.photo__Left {
+	color: white;
+	margin-top: 5%;
+	height: 500px;
+	width: 33.3%;
+	background-color: $main-color;
+	@include flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.photo__Center {
+	margin-top: 5%;
+	height: 500px;
+	width: 33.3%;
+	background-color: #8b8b8b;
+	@include flex;
+	align-items: center;
+	justify-content: center;
+	transition: 1.2s;
+
+}
+
+.photo__Right {
+	margin-top: 5%;
+	height: 500px;
+	width: 33.4%;
+	background-color: #bfbfbf;
+	@include flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.hexagon {
+  position: relative;
+  width: 100px; 
+  height: 57.74px;
+  background-color: #FFFFFF;
+  margin: 28.87px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 28.87px solid #FFFFFF;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 28.87px solid #FFFFFF;
+}
+
+.content__skill__Bars {
+
+	@include flex;
+	flex-flow: column wrap;
+	width: 100%;
+	max-height: 320px;
+	box-sizing: border-box;
+	margin-left: 5%;
+
+
+
+}
+
+.container {
+  width: 80%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 40px;
+  color: white;
+}
+
+.html {width: 50%; background-color: $product-color;}
+.css {width: 80%; background-color: $product-color;}
+.js {width: 20%; background-color: $product-color;}
+.php {width: 60%; background-color: $product-color;}
+
+
+.product__Picture {
+	background-color: $product-color;
+	width: 50%;
+    height: 350px;
+    margin-right: 5%;
+    float: right;
+}
+
+.product{
+	background-color: $product-color;
+	width: 75%;
+    height: 50px;
+    margin-left: 5%;
+    float: left;
+}
+
+.product__List-see {
+	@include flex;
+	justify-content: space-between;
+	height: 350px;
+	flex-direction: column;
+}
+
+div.buy__button-block {
+	background-color: black;
+	width: 20%;
+    height: 75px;
+    margin: 20px;
+   	margin-left: 950px;
+  	margin-bottom: 150px;
+}
+
+button {
+	color: white;
+	background-color: black;
+}
+
+.image {
+
+	display: none;
+
+}
+
+.image__afterscroll {
+
+	width: 300px;
+	height: 100px;
+}

@@ -1,0 +1,14 @@
+header {
+
+	height: 500px;
+	width: 100%;
+	background: $main-color;
+	@include flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	right: 0;
+	transition: 1.2;
+	
+
+}

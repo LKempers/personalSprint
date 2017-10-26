@@ -1,0 +1,21 @@
+body {
+
+    height: 2500px;
+}
+
+.image__holder {
+    transform: rotate(270deg);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+.slide__image {
+    width: 42%;
+}
+.image__container {
+
+    height: 325px;
+    position: fixed;
+    top: 10%;
+    left: -670;
+    width: 50%;
+    transition: 1.2s;
+}
